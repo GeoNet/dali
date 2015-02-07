@@ -1,6 +1,7 @@
 package dali
 
-//#cgo LDFLAGS: -ldali
+//#cgo CFLAGS: -I/usr/local/include
+//#cgo LDFLAGS: /usr/local/lib/libdali.a
 //#include <libdali.h>
 import "C"
 
